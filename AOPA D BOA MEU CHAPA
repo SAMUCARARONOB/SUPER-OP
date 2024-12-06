@@ -9,7 +9,7 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("Main GUI's")
 local Section = Tab:CreateSection("Blade Ball Main GUI's")
-local Label = Tab:CreateLabel("Thanks for using Furk Ultra!")
+local Label = Tab:CreateLabel("Thanks for using OP SCRIPTS☠️")
 
 local scripts = {
     {"Inferno Hub", "https://github.com/SadlekAski/Scripts/raw/main/Blade%20Ball/Equip%20any%20ability.lua"},
