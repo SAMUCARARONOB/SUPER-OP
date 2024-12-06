@@ -42,7 +42,7 @@ local UIGridLayout = Instance.new("UIGridLayout")
 ScrollingFrame.Parent = MainFrame
 ScrollingFrame.Size = UDim2.new(1, -40, 1, -80)
 ScrollingFrame.Position = UDim2.new(0, 20, 0, 60)
-local maxButtons = 11
+local maxButtons = 10
 local buttonHeight = 60
 local spacing = 10
 ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, math.ceil(maxButtons / 3) * (buttonHeight + spacing))
@@ -58,7 +58,6 @@ UIGridLayout.FillDirectionMaxCells = 3
 UIGridLayout.FillDirection = Enum.FillDirection.Horizontal
 
 local scripts = {
-    local scripts = {
     {"Inferno Hub", "https://github.com/SadlekAski/Scripts/raw/main/Blade%20Ball/Equip%20any%20ability.lua"},
     {"W-azure Hub", "https://api.luarmor.net/files/v3/loaders/fd07660d92cb26891e9acfab9f0c6ba4.lua"},
     {"Bedol Hub", "https://raw.githubusercontent.com/nqxlOfc/Loaders/main/Blade_Ball.lua"},
@@ -68,8 +67,7 @@ local scripts = {
     {"R3TH-PRIV Hub", "https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua"},
     {"Lightux Hub", "https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md"},
     {"Red Circle Auto Parry", "https://raw.githubusercontent.com/UltraStuff/scripts2/main/bladered"},
-    {"LuaF Hub", "https://raw.githubusercontent.com/UltraStuff/scripts2/main/bladelua"},
-    {"More Coming Soon!", ""},
+    {"LuaF Hub", "https://raw.githubusercontent.com/UltraStuff/scripts2/main/bladelua"}
 }
 local function createDetailedButton(scriptInfo)
     local Button = Instance.new("TextButton")
